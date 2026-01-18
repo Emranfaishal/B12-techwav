@@ -12,4 +12,16 @@
     nav .span {
         display: inline;
     }
+
+    .section2 h3 {
+        margin: 0;
+    }
+
+    .section2 p {
+        margin: 10px 0px;
+    }
+
+    .box {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
