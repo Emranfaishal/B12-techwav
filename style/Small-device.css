@@ -42,8 +42,26 @@
     }
 
 
+    .section6 {
+        padding: 30px;
+        gap: 50px;
+    }
+
+    .host h4 {
+        margin-top: 16px;
+    }
+
+    .section6 .host {
+        display: contents;
+        text-align: center;
+        background: rgb(53, 17, 101);
+    }
+
+
     footer {
         background: rgba(26, 11, 46, 1);
+        width: 590px;
+        height: 300px;
     }
 
     footer h1 {
