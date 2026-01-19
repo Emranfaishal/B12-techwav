@@ -1,16 +1,31 @@
 @media screen and (max-width:576px) {
-
-    body {
-        padding: 20px;
-    }
-
     nav p,
-    button {
+    .bnt {
         display: none;
     }
 
     nav .span {
         display: inline;
+    }
+
+    .banner img {
+        width: 200px;
+        margin-top: -10px;
+    }
+
+    .banner .mic {
+        width: 80px;
+        margin-top: 30px;
+        margin-left: -40px;
+    }
+
+    .banner .tag {
+        margin-left: 296px;
+        margin-top: -2px;
+    }
+
+    .banner p {
+        padding: 10px;
     }
 
     .section2 h3 {
