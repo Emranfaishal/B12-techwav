@@ -6,7 +6,6 @@
     padding: 0px;
     font-family: "Inter", sans-serif;
     max-width: 1600px;
-    border: 2px solid red;
 }
 
 header {
@@ -71,7 +70,6 @@ nav .span {
     background-repeat: no-repeat;
     background-size: 100%;
     text-align: center;
-    border: 2px solid red;
 }
 
 .select1 .but {
@@ -84,7 +82,7 @@ nav .span {
 .banner .tag {
     background-color: #00FF88;
     position: absolute;
-    margin-left: 840px;
+    margin-left: 860px;
     margin-top: 100px;
     font-size: 16px;
     font-weight: 500px;
@@ -213,3 +211,46 @@ main {
 }
 
 /* section three title tag end  */
+
+
+footer {
+    background-image: url(../image/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    width: 100%;
+    border: 2px solid red;
+}
+
+footer h1 {
+    font-size: 60px;
+    font-weight: 900px;
+    color: #FFFFFF;
+    margin-top: 110px;
+}
+
+footer div div {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 480px;
+    align-items: center;
+
+}
+
+footer div div p {
+    font-size: 20px;
+    font-weight: 400px;
+    color: #FFFFFF;
+}
+
+footer div .te {
+    font-size: 16px;
+    font-weight: 400px;
+    color: #FFFFFF;
+    margin-top: 40px;
+    margin-bottom: 120px;
+}
+
+footer span {
+    color: rgb(168, 85, 247);
+}
