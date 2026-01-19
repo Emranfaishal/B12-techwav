@@ -41,6 +41,18 @@
         grid-template-columns: repeat(2, 1fr);
     }
 
+    .container {
+        display: inline;
+        grid-template-areas:
+            "one  one  one"
+            "one  two two "
+            "tree tree tree"
+            "four four four"
+            "five five five";
+        gap: 20px;
+        padding: 10px;
+    }
+
 
     .section5 .card-text {
         grid-template-columns: repeat(1, 1fr);

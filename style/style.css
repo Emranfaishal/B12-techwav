@@ -208,6 +208,78 @@ main {
     font-weight: 900px;
     text-align: center;
     color: #FFFFFF;
+    margin-top: 120px;
+    margin-bottom: 40px;
+}
+
+.one {
+    grid-area: one;
+}
+
+.two {
+    grid-area: two;
+}
+
+.tree {
+    grid-area: tree;
+}
+
+.four {
+    grid-area: four;
+}
+
+.five {
+    grid-area: five;
+}
+
+.container {
+    display: grid;
+    grid-template-areas:
+        "one  two  two"
+        "one  two  two"
+        "one  tree tree"
+        "one  tree tree"
+        "four four five";
+    gap: 20px;
+}
+
+
+.section3 .container .one,
+.two,
+.tree,
+.four,
+.five {
+    background: rgb(53, 17, 101);
+    padding: 40px;
+    border-radius: 15px;
+}
+
+.section3 .container .one .two .tree .four .five img {
+    padding: 10px;
+}
+
+.section3 .container .one,
+.two,
+.tree,
+.four,
+.five,
+h4 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.section3 .container .one,
+.two,
+.tree,
+.four,
+.five,
+p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #FFFFFF;
+    margin-bottom: 16px;
 }
 
 /* section three title tag end  */
@@ -220,6 +292,7 @@ main {
     color: #FFFFFF;
     text-align: center;
     margin-bottom: 40px;
+    margin-top: 120px;
 }
 
 .section5 .card-text {
