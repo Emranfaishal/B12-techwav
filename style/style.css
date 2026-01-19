@@ -214,12 +214,58 @@ main {
 
 
 
+.section5 h1 {
+    font-size: 48px;
+    font-weight: 700px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section5 .card-text {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.section5 .card iframe {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.section5 .card-t {
+    padding: 20px;
+}
+
+.section5 .card {
+    border-radius: 20px;
+    background: rgb(53, 17, 101);
+}
+
+.section5 .card h4 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.section5 .card p {
+    font-size: 16px;
+    font-weight: 400px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.section5 .card .min {
+    color: #00FF88;
+}
 
 
 
 
 /* section six title tag ster */
 .section6 h3 {
+    margin-top: 120px;
     font-size: 48px;
     font-weight: 700;
     text-align: center;

@@ -42,6 +42,16 @@
     }
 
 
+    .section5 .card-text {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 50px;
+    }
+
+    .section5 .card {
+        padding: 40px;
+    }
+
+
     .section6 {
         padding: 30px;
         gap: 50px;
