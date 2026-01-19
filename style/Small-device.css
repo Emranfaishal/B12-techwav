@@ -1,5 +1,10 @@
 @media screen and (max-width:576px) {
 
+
+    body {
+        padding: 20px;
+    }
+
     nav p,
     .bnt {
         display: none;
@@ -64,6 +69,8 @@
     }
 
 
+
+
     .section6 {
         padding: 30px;
         gap: 50px;
@@ -74,10 +81,27 @@
     }
 
     .section6 .host {
-        display: contents;
-        text-align: center;
-        background: rgb(53, 17, 101);
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
     }
+
+    .host h4 {
+        text-align: center;
+    }
+
+    .host p {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .host .img-host img {
+        /* margin-right: 50px; */
+        margin-left: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+
 
 
     footer {
