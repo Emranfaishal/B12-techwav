@@ -50,7 +50,7 @@
         display: inline;
         grid-template-areas:
             "one  one  one"
-            "one  two two "
+            "two  two two "
             "tree tree tree"
             "four four four"
             "five five five";
@@ -120,5 +120,51 @@
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
         margin: 20px 10px;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:992px) {
+
+    body {
+        padding: 20px;
+    }
+
+    .banner img {
+        width: 200px;
+        margin-top: 60px;
+    }
+
+    .banner .mic {
+        width: 80px;
+        margin-top: 90px;
+        margin-left: -40px;
+    }
+
+    .banner .tag {
+        margin-left: 525px;
+        margin-top: 60px;
+    }
+
+
+    .container {
+        display: inline;
+        grid-template-areas:
+            "one  one  one"
+            "two  two two "
+            "tree tree tree"
+            "four four four"
+            "five five five";
+        gap: 20px;
+        padding: 10px;
+    }
+
+    .section5 .card-text {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 50px;
+    }
+
+    footer {
+        width: 100%;
+        height: 100%px;
     }
 }
